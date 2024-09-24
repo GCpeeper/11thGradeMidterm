@@ -37,8 +37,9 @@ body {
 }
 
 .standard-text {
-  font-size: medium;
+  font-size: large;
   font-family: 'Courier New', Courier, monospace;
+
 }
 
 div.gallery {
@@ -60,4 +61,48 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+}
+
+.container {
+  width: 50%;
+  height: 25%;
+  padding: 10px;
+  padding-left: 12.5%;
+}
+.one {
+  width: 75%;
+  height: 375px;
+  max-height: 375px;
+  float: left;
+  background-color: rgba(117, 113, 113, 0.5);
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.two {
+  height: 125px;
+  float: right;
+  /* padding-left: 5%; */
+  width: 25%;
+}
+
+.three {
+  height: 125px;
+  float: left;
+  /* padding-left: 5%; */
+  width: 25%;
+}
+
+.four {
+  width: 75%;
+  height: 375px;
+  background-color: rgba(117, 113, 113, 0.5);
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
